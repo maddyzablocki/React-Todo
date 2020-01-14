@@ -25,7 +25,7 @@ class TodoForm extends React.Component {
                 <input 
                     type="text"
                     name="item"
-                    placeholder="Add a task..."
+                    placeholder="  Add a task..."
                     value={this.state.todoText}
                     onChange={this.handleChanges}
                 />
